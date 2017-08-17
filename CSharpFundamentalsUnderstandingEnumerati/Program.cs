@@ -10,7 +10,10 @@ namespace CSharpFundamentalsUnderstandingEnumerati
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen; //changes color of the font in the console
 
+            Console.WriteLine("Hello world!");
+            Console.ReadLine();
         }
     }
 }

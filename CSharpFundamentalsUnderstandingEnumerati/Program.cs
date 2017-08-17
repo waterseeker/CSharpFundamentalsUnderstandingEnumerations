@@ -38,10 +38,13 @@ namespace CSharpFundamentalsUnderstandingEnumerati
                 switch (myValue)
                 {
                     case SuperHero.Batman:
+                        Console.WriteLine("Caped Crusader");
                         break;
                     case SuperHero.Superman:
+                        Console.WriteLine("Man of Steel");
                         break;
                     case SuperHero.GreenLantern:
+                        Console.WriteLine("Emerald Knight");
                         break;
                     default:
                         break;
@@ -49,6 +52,10 @@ namespace CSharpFundamentalsUnderstandingEnumerati
 
             }
 
+            else
+            {
+                Console.WriteLine("That wasn't a valid name.");
+            }
 
 
             Console.ReadLine();
